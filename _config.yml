@@ -81,25 +81,6 @@ content:
           - MVC
           - Json, Ajax
 
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -124,7 +105,54 @@ content:
         description: | # this will include new lines to allow paragraphs
             Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.      
     
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+    - layout: top-middle
+      title: KHK-Market
+      link: github.com/devkhk/khk-market
+      # link_text: Project Website
+      additional_links:
+        - title: 메이플 스토리 경매장을 모티브한 게임 아이템 경매장
+          icon: fab fa-github
+          url: github.com/devkhk/khk-market
+        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   icon: fab fa-github
+        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+      quote: >
+        개발기간 : 2021.04-2021.05
+      description: | # this will include new lines to allow paragraphs
+        건강상의 문제로 약 1년여만에 개발 공부를 다시 시작하게 된후 제작한 웹 사이트입니다. 휴식기간 동안 가끔 즐기던 게임인 메이플스토리의 경매장을 모티브삼아 웹사이트로 만들보았습니다.
+        개발 목적은 개발에 대한 감각을 되살리고 여러가지 조건에 쿼리문을 다양하게 적용해보고 싶었습니다. 자세한 내용은 깃허브에 정리해두었습니다.
 
+        사용 기술 요약
+         - bootstrap5
+         - PHP PDO
+         - DB transaction, triger
+
+    - layout: top-middle
+          title: My_web
+          link: github.com/devkhk/my_web
+          # link_text: Project Website
+          additional_links:
+            - title: 처음 웹서버를 공부하면서 만든 블로그 웹입니다.
+              icon: fab fa-github
+              url: github.com/devkhk/my_web
+            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #   icon: fab fa-github
+            #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+          quote: >
+            개발기간 : 2020.02-2021.03
+          description: | # this will include new lines to allow paragraphs
+            웹 서버를 구현하면서 백엔드에 대한 이해가 생기는 좋은 시간이었습니다. APM을 구성했고 리눅스에서 터미널 명령어를 다뤄보면서 내가 개발고수가 된 느낌이 들면서 이때부터 백엔드 개발자가 되어야겠다고 다짐했습니다.
+            자세한 내용은 깃허브에 정리해두었습니다.
+
+            사용 기술 요약
+            - bootstrap5
+            - PHP PDO
+            - DB transaction, triger
+        
+        
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:

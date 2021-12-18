@@ -133,7 +133,7 @@ content:
         #   icon: fab fa-github
         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
       description: | # this will include new lines to allow paragraphs
-        건강상의 문제로 약 1년여만에 개발 공부를 다시 시작하게 된후 제작한 웹 사이트입니다. 휴식기간 동안 가끔 즐기던 게임인 메이플스토리의 경매장을 모티브삼아 웹사이트로 만들보았습니다.
+        건강상의 문제로 약 1년여만에 개발 공부를 다시 시작하게 된 후 제작한 웹 사이트입니다. 휴식기간 동안 가끔 즐기던 게임인 메이플스토리의 경매장을 모티브삼아 웹사이트로 만들보았습니다.
         개발 목적은 개발에 대한 감각을 되살리고 여러가지 조건에 쿼리문을 다양하게 적용해보고 싶었습니다. 자세한 내용은 깃허브에 정리해두었습니다.
 
         <mark>사용 기술 요약</mark>

@@ -145,7 +145,7 @@ content:
       title: My_web
       sub_title: 처음 웹서버를 공부하면서 만든 블로그 웹입니다.
       link: github.com/devkhk/my_web
-      cpation: 2020.02 - 2021.03
+      caption: 2020.02 - 2021.03
       # link_text: Project Website
       additional_links:
         - title: My_web

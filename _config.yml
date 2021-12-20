@@ -64,7 +64,7 @@ content:
           - Python, PHP, Java
           - Apache Spark, Apache kafka (예정)
           - Laravel, Composer
-          - Restful API
+          - MVP
       - layout: left
         title: Devops
         description: | # this will include new lines to allow paragraphs
@@ -78,7 +78,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Html/CSS
           - JS, Jqeury
-          - MVC
           - Json, Ajax
 
   - title: Experience # Title for the section

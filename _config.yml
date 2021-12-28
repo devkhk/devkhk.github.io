@@ -186,10 +186,6 @@ content:
         sub_title: 하버드 대학교의 컴퓨터과학 입문 강좌
         link: http://www.boostcourse.org/certificate/A20211227-906785?langCode=ko
         link_text: <mark>수료증</mark>
-        # additional_links:
-        #   - title: 수료증서
-        #     icon: fas fa-certificate
-        #     url: boostcourse.org/certificate/A20211227-906785?langCode=ko
         description: | # this will include new lines to allow paragraphs
           - 컴퓨터 과학의 기초 개념 이해
           - C를 이용한 배열, 자료구조, 알고리즘 실습

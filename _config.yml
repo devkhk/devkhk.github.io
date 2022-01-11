@@ -166,10 +166,26 @@ content:
         - 스팸방지 : recaptcha2 API
         - Summernote : ajax 다중이미지 처리
         - 썸네일 : 이미지 압축
+
+
+  
         
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: 부스트코스 AI Basic 코칭스터디 1기 리드 부스터
+        caption: 2022.01 - 
+        sub_title: 네이버 컨넥트재단에서 운영하는 인공지능 교육 프로그램 중 AI기초
+        # link: http://www.boostcourse.org/certificate/A20211227-906785?langCode=ko
+        # link_text: <mark>수료증</mark>
+        description: | # this will include new lines to allow paragraphs
+          - 인공지능 전반에 필요한 기초 습득
+          - 머신러닝을 위한 라이브러리 Numpy, Pandas 등을 이해하고 구현
+          - 머신 러닝 알고리즘에 대한 이해
+          - 자기 주도적 학습, 팀 학습, 코칭 결합된 스터디
+          - [블로그 기록](https://devkhk.tistory.com/category/Development/AI)
+
       - layout: left
         title: 패스트 캠프 클라우드를 활용한 데이터 파이프라인 구축
         caption: 2021.12 -
@@ -181,7 +197,7 @@ content:
          - 실무와 유사한 환경 실습
 
       - layout: left
-        title: 네이버 부스트코스 컴퓨터 과학 C50
+        title: 네이버 컨넥트재단 부스트코스 컴퓨터 과학 C50
         caption: 2021.12
         sub_title: 하버드 대학교의 컴퓨터과학 입문 강좌
         link: http://www.boostcourse.org/certificate/A20211227-906785?langCode=ko

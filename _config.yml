@@ -62,7 +62,7 @@ content:
         title: Backend
         description: | # this will include new lines to allow paragraphs
           - Python, PHP, Java
-          - Apache Spark, Apache kafka (예정)
+          - Apache Spark, Apache Airflow, Apache kafka(예정)
           - Laravel, Composer
           - MVP
       - layout: left
@@ -70,9 +70,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Linux
           - Nginx, Apache
-          - AWS EC2, AWS S3(예정)
-          - MySQL, MariaDB, Elasticsearch, Kibana (예정)
-          - Atom, Visual Studio Code, Android Studio
+          - AWS EC2, AWS S3
+          - MySQL, MariaDB
+          
       - layout: left
         title: Frontend
         description: | # this will include new lines to allow paragraphs
@@ -92,10 +92,9 @@ content:
         quote: > 
           웹 페이지 백앤드 개발을 맡아했습니다. 
         description: | # this will include new lines to allow paragraphs
-            퍼블리싱 된 프론트에 기능을 추가하고 서버에서 필요한 데이터를 가져와 뿌려주는 작업을 했습니다. 카카오 맵 API를 가지고와 <mark>다중오버레이</mark> 작업을 했고, 폴더에 저장된 텍스트 파일을 한줄씩 읽어와 데이터를 뿌려주는 기능을 구현했습니다.
+            퍼블리싱 된 프론트에 기능을 추가하고 서버에서 필요한 데이터를 가져와 뿌려주는 작업을 했습니다. <mark>카카오맵 API</mark>를 사용해 다중오버레이 작업을 했고, 폴더에 저장된 텍스트 파일을 한줄씩 읽어와 데이터를 뿌려주는 기능을 구현했습니다.
             개발자체는 어렵지 않았지만 처음으로 누군가가 요구하는 기능을 만들면서 개발과정에서 <mark>소통</mark>의 중요성을 이해할 수 있었던 시간이었습니다.
-            제가 좀더 성숙하고 깊이있는 개발자가 되어야겠다고 생각하게 되었습니다.
-
+            
             <mark>사용 기술 요약</mark>
             - PHP Laravel Framwork
             - KakaoMap API
@@ -132,7 +131,7 @@ content:
         #   icon: fab fa-github
         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
       description: | # this will include new lines to allow paragraphs
-        건강상의 문제로 약 1년여만에 개발 공부를 다시 시작하게 된 후 제작한 웹 사이트입니다. 휴식기간 동안 가끔 즐기던 게임인 메이플스토리의 경매장을 모티브삼아 웹사이트로 만들어보았습니다.
+        건강상의 문제로 약 1년여만에 개발 공부를 다시 시작하게 된 후 제작한 웹 사이트입니다. 휴식기간 동안 가끔 즐기던 게임인 메이플스토리의 <mark>경매장</mark>을 모티브삼아 웹사이트로 만들어보았습니다.
         개발 목적은 개발에 대한 감각을 되살리고 여러가지 조건에 쿼리문을 다양하게 적용해보고 싶었습니다. 자세한 내용은 깃허브에 정리해두었습니다.
 
         <mark>사용 기술 요약</mark>
@@ -159,7 +158,7 @@ content:
         자세한 내용은 깃허브에 정리해두었습니다.
 
         <mark>사용 기술 요약</mark>
-        - REST API
+        - CRUD
         - 세션, 쿠키
         - SMTP 이메일 서비스
         - 댓글 : disqus API
@@ -175,7 +174,7 @@ content:
         caption: 2022.03 - 
         sub_title: 우버 모빌리티 데이터로 실시간 빅데이터 처리 실습
         description: | 
-         - 실무 데이터 처리의 End- End 학습
+         - 실무 데이터 처리의 End - End 학습
          - 우버 모빌리티 데이터로 실시간 빅데이터 처리 실습
          - 일괄처리 VS 실시간 빅데이터 처리 비교 학습
          - 오케스트레이션으로 데이터 엔지니어링 스케쥴링 학습
@@ -185,7 +184,7 @@ content:
         caption: 2022.01 - 02
         sub_title: 네이버 컨넥트재단에서 운영하는 인공지능 교육 프로그램 중 AI기초
         link: http://www.boostcourse.org/certificate/A20220310-275895?langCode=ko
-        link_text: <mark>수료증</mark>
+        link_text: <mark>리더 수료증</mark>
         description: | # this will include new lines to allow paragraphs
           - 인공지능 전반에 필요한 기초 습득
           - 머신러닝을 위한 라이브러리 Numpy, Pandas 등을 이해하고 구현

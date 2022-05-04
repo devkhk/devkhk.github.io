@@ -62,7 +62,7 @@ content:
         title: Backend
         description: | # this will include new lines to allow paragraphs
           - Python, PHP, Java
-          - Apache Spark, Apache Airflow, Apache kafka(예정)
+          - Apache Spark, Apache Airflow, Apache kafka
           - Laravel, Composer
           - MVP
       - layout: left
@@ -124,12 +124,6 @@ content:
       # link_text: Project Website
       additional_links:
         - title: 데이터 엔지니어링 학습 포트폴리오
-          # icon: fab fa-github
-          # url: github.com/devkhk/khk-market
-
-        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #   icon: fab fa-github
-        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
       description: | # this will include new lines to allow paragraphs
         우버 모빌리티 데이터로 실시간 빅데이터 처리를 실습하면서 ELT 방식에서 ELT 흐름으로 넘어가는 모던 데이터 엔지니어링 아키텍쳐를 이해합니다. 
         과거 데이터와 실시간 데이터를 기반으로 배이 파이프라인과 스트림 파이프라인을 동시에 사용하는 ML 데이터 학습과 서빙 파이프라인을 설계합니다.   

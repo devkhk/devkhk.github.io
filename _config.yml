@@ -50,9 +50,9 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   오늘 모르는게 생기면 내일은 알고 있는 신입 개발자 김광현입니다. 
   
-  Java로 처음 개발공부를 시작했고 안드로이드 프로젝트 경험, 웹 서버 프로젝트 경험으로 Full stack 기본을 이해했습니다. 개발 공부를 하다보니 서버에서 데이터를 다루는 백엔드 개발자가 되고자 했습니다. 이후 백엔드에서도 세부적인 데이터 엔지니어링이란 분야를 알게 되었고, 제가 목표로 하는 백엔드 개발이라는 확신이 들어 전문적인 <mark>데이터 엔지니어</mark>가 되기위해 공부하고 있습니다.
+  Java로 처음 개발공부를 시작했고 안드로이드 프로젝트 경험, 웹 서버 프로젝트 경험으로 Full stack 기본을 이해했습니다. 데이터 엔지니어링은 제가 목표로 하는 백엔드 개발이라는 확신이 들어 전문적인 <mark>데이터 엔지니어</mark>가 되기위해 공부하고 있습니다.
 
-  CS전공자가 아니기 때문에 CS지식을 익히기 위해 네이버 커넥트재단이 제공하는 <mark>CS50</mark>(하버드 대학교의 컴퓨터과학 입문 강좌)로 부족한 CS기초를 공부했습니다. <mark>빅데이터</mark>와 <mark>클라우드</mark>에 대한 이해부터 데이터 수집, 저장, 처리, 분석, 시각화까지 데이터 분석의 전체 과정에 걸친 <mark>데이터 파이프라인</mark> 구축을 공부하고 있습니다.
+ <mark>빅데이터</mark>와 <mark>스트림</mark> 데이터 수집, 저장, 처리, 분석, 시각화까지 데이터 분석의 전체 과정에 걸친 <mark>데이터 파이프라인</mark> 구축을 공부하고 있습니다.
 
 content:
   - title: Skills # skills section
@@ -62,7 +62,7 @@ content:
         title: Backend
         description: | # this will include new lines to allow paragraphs
           - Python, PHP, Java
-          - Apache Spark, Apache Airflow, Apache kafka
+          - Apache Spark, Apache Airflow, Apache Kafka, Apache Flink
           - Laravel, Composer
           - MVP
       - layout: left
@@ -71,12 +71,12 @@ content:
           - Linux
           - Nginx, Apache
           - AWS EC2, AWS S3
-          - MySQL, MariaDB
+          - MySQL
           
       - layout: left
         title: Frontend
         description: | # this will include new lines to allow paragraphs
-          - Html/CSS
+          - Html / CSS
           - JS, Jqeury
           - Json, Ajax
 
@@ -120,7 +120,7 @@ content:
       title: 데이터 엔지니어링 학습 포트폴리오
       sub_title: 패스트캠프 데이터 엔지니어링 학습, 정리 
       link: github.com/devkhk/data-engineering-study
-      caption: 2022.03 -
+      caption: 2022.03 - 2022.05
       # link_text: Project Website
       additional_links:
         - title: 데이터 엔지니어링 학습 포트폴리오
@@ -192,6 +192,8 @@ content:
         title: 패스트캠프 실시간 빅데이터 처리 Spark & Flink
         caption: 2022.03 - 
         sub_title: 우버 모빌리티 데이터로 실시간 빅데이터 처리 실습
+        link: https://github.com/devkhk/data-engineering-study/blob/main/day1company.pdf
+        link_text: <mark>수료증</mark>
         description: | 
          - 실무 데이터 처리의 End - End 학습
          - 우버 모빌리티 데이터로 실시간 빅데이터 처리 실습

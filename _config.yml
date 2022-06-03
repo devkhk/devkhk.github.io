@@ -50,9 +50,9 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   오늘 모르는게 생기면 내일은 알고 있는 신입 개발자 김광현입니다. 
   
-  Java로 처음 개발공부를 시작했고 안드로이드 프로젝트 경험, 웹 서버 프로젝트 경험으로 Full stack 기본을 이해했습니다. 데이터 엔지니어링은 제가 목표로 하는 백엔드 개발이라는 확신이 들어 전문적인 <mark>데이터 엔지니어</mark>가 되기위해 공부하고 있습니다.
-
- <mark>빅데이터</mark>와 <mark>스트림</mark> 데이터 수집, 저장, 처리, 분석, 시각화까지 데이터 분석의 전체 과정에 걸친 <mark>데이터 파이프라인</mark> 구축을 공부하고 있습니다.
+  Java로 처음 개발공부를 시작했고 안드로이드 프로젝트 경험, 웹 서버 프로젝트 경험으로 Full stack 기본을 이해했습니다. 데이터 엔지니어링이 제가 목표로 하는 백엔드 개발이라는 확신이 들어 전문적인 <mark>데이터 엔지니어</mark>가 되기위해 공부하고 있습니다.
+  
+  <mark>빅 데이터</mark>와 <mark>스트림 데이터</mark> 수집, 저장, 처리, 분석, 시각화까지 데이터 분석의 전체 과정에 걸친 <mark>데이터 파이프라인</mark> 구축을 공부하고 있습니다.
 
 content:
   - title: Skills # skills section
@@ -130,10 +130,10 @@ content:
         <mark>오케스트레이션</mark> 데이터 엔지니어링 스케쥴링을 이해하고 실습합니다.
 
         <mark>사용 기술 요약</mark>
-        - Spark 
-        - Airflow
-        - Kafka
-        - Flink
+        - Apache Spark 
+        - Apache Airflow
+        - Apache Kafka
+        - Apache Flink
 
     - layout: left
       title: KHK-Market
@@ -190,9 +190,9 @@ content:
     content:
       - layout: left
         title: 패스트캠프 실시간 빅데이터 처리 Spark & Flink
-        caption: 2022.03 - 
+        caption: 2022.03 - 05
         sub_title: 우버 모빌리티 데이터로 실시간 빅데이터 처리 실습
-        link: https://github.com/devkhk/data-engineering-study/blob/main/day1company.pdf
+        link: https://www.github.com/devkhk/data-engineering-study/blob/main/day1company.pdf
         link_text: <mark>수료증</mark>
         description: | 
          - 실무 데이터 처리의 End - End 학습
@@ -204,7 +204,7 @@ content:
         title: 부스트코스 AI Basic 코칭스터디 1기 리드 부스터 수료
         caption: 2022.01 - 02
         sub_title: 네이버 컨넥트재단에서 운영하는 인공지능 교육 프로그램 중 AI기초
-        link: http://www.boostcourse.org/certificate/A20220310-275895?langCode=ko
+        link: https://www.boostcourse.org/certificate/A20220310-275895?langCode=ko
         link_text: <mark>리더 수료증</mark>
         description: | # this will include new lines to allow paragraphs
           - 인공지능 전반에 필요한 기초 습득
@@ -226,13 +226,13 @@ content:
         title: 네이버 컨넥트재단 부스트코스 컴퓨터 과학 CS50
         caption: 2021.12
         sub_title: 하버드 대학교의 컴퓨터과학 입문 강좌
-        link: http://www.boostcourse.org/certificate/A20211227-906785?langCode=ko
+        link: https://www.boostcourse.org/certificate/A20211227-906785?langCode=ko
         link_text: <mark>수료증</mark>
         description: | # this will include new lines to allow paragraphs
           - 컴퓨터 과학의 기초 개념 이해
           - C를 이용한 배열, 자료구조, 알고리즘 실습
           - 프로그래밍에 필요한 컴퓨팅 사고 향상
-          - [CS강의 블로그 정리](https://devkhk.tistory.com/category/Development/cs)
+          - [CS강의 블로그 정리](https://devkhk.tistory.com/category/Development/CS)
 
       - layout: left
         title: 동양 미래 대학교

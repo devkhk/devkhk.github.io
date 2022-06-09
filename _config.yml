@@ -50,10 +50,12 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   오늘 모르는게 생기면 내일은 알고 있는 신입 개발자 김광현입니다. 
   
-  Java로 처음 개발공부를 시작했고 안드로이드 프로젝트 경험, 웹 서버 프로젝트 경험으로 Full stack 기본을 이해했습니다. 데이터 엔지니어링이 제가 목표로 하는 백엔드 개발이라는 확신이 들어 전문적인 <mark>데이터 엔지니어</mark>가 되기위해 공부하고 있습니다.
-  
-  <mark>빅 데이터</mark>와 <mark>스트림 데이터</mark> 수집, 저장, 처리, 분석, 시각화까지 데이터 분석의 전체 과정에 걸친 <mark>데이터 파이프라인</mark> 구축을 공부하고 있습니다.
+  Java로 처음 개발공부를 시작했고 안드로이드 프로젝트 경험, 웹 서버 프로젝트 경험으로 Full stack을 공부했습니다. 데이터 엔지니어링이 제가 목표로 하는 백엔드 개발이라는 확신이 들어 전문적인 <mark>데이터 엔지니어</mark>가 되기위해 공부하고 있습니다.
+  현재 <mark>빅 데이터</mark>와 <mark>스트림 데이터</mark> 수집, 저장, 처리, 분석, 시각화까지 데이터 분석의 전체 과정에 걸친 <mark>데이터 파이프라인</mark> 구축을 공부하고 있습니다.
 
+  데이터 엔지니어링을 공부하면서 오픈소스 학습 내용이나 기타 데이터 엔지니어링 학습 과정을 <mark>블로그</mark>에 꾸준히 게시하고 있습니다.
+  - [Blog](https://devkhk.tistory.com)
+  - [GitHub](https://github.com/devkhk)
 content:
   - title: Skills # skills section
     layout: list # Type of content section (list/text)
@@ -117,23 +119,37 @@ content:
     layout: list # Type of content section (list/text)
     content:
     - layout: left
-      title: 데이터 엔지니어링 학습 포트폴리오
-      sub_title: 패스트캠프 데이터 엔지니어링 학습, 정리 
+      title: 실시간 빅데이터 처리 학습 Spark & Flink 
+      sub_title: 데이터 엔지니어링 학습 포트폴리오
       link: github.com/devkhk/data-engineering-study
       caption: 2022.03 - 2022.05
       # link_text: Project Website
       additional_links:
         - title: 데이터 엔지니어링 학습 포트폴리오
       description: | # this will include new lines to allow paragraphs
-        우버 모빌리티 데이터로 실시간 빅데이터 처리를 실습하면서 ELT 방식에서 ELT 흐름으로 넘어가는 모던 데이터 엔지니어링 아키텍쳐를 이해합니다. 
+        우버 모빌리티 데이터로 실시간 빅데이터 처리를 실습하면서 ETL 방식에서 ELT 흐름으로 넘어가는 모던 데이터 엔지니어링 아키텍쳐를 학습
         과거 데이터와 실시간 데이터를 기반으로 <mark>배치 파이프라인</mark>과 <mark>스트림 파이프라인</mark>을 동시에 사용하는 ML 데이터 학습과 서빙 파이프라인을 설계합니다.
-        <mark>오케스트레이션</mark> 데이터 엔지니어링 스케쥴링을 이해하고 실습합니다.
+        <mark>오케스트레이션</mark> 데이터 엔지니어링 스케쥴링 이해, 학습
 
         <mark>사용 기술 요약</mark>
-        - Apache Spark 
+        - Apache Spark
+          - 배치 데이터 분석
+          - Data Preprocessing
+          - Hyper Parameter 파이프라인
+          - ML 예측 모델 학습 파이프라인
         - Apache Airflow
+          - 배치 데이터 가공, 저장 파이프라인 DAG 설계 
+          - Data Preprocessing -> Train/Test 데이터 저장
+          - Hyper Parameter 학습 -> 파라미터 csv 파일로 저장
+          - Train Model -> 학습 된 모델을 저장
+          - 위 과정을 에어플로우 DAG의 작업화(Task) 하고 의존성 추가
         - Apache Kafka
+          - 카프카 실시간 빅데이터 처리 실습
+          - 카프카를 활용한 Fraud Detection Sub Project     
         - Apache Flink
+          - 스트림 데이터 프로세싱 실습
+          - 플링크를 활용한 Twitter API RealTime Stream Process Sub Project
+          - 배치 데이터 모델을 실시간 택시비 예측에 사용하기
 
     - layout: left
       title: KHK-Market

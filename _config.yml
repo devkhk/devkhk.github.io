@@ -127,7 +127,8 @@ content:
       additional_links:
         - title: 데이터 엔지니어링 학습 포트폴리오
       description: | # this will include new lines to allow paragraphs
-        우버 모빌리티 데이터로 실시간 빅데이터 처리를 실습하면서 ETL 방식에서 ELT 흐름으로 넘어가는 모던 데이터 엔지니어링 아키텍쳐를 학습
+        우버 모빌리티 데이터로 실시간 빅데이터 처리를 실습하면서 ETL 방식에서 ELT 흐름으로 넘어가는 모던 데이터 엔지니어링 아키텍쳐를 학습.
+        
         과거 데이터와 실시간 데이터를 기반으로 <mark>배치 파이프라인</mark>과 <mark>스트림 파이프라인</mark>을 동시에 사용하는 ML 데이터 학습과 서빙 파이프라인을 설계합니다.
         <mark>오케스트레이션</mark> 데이터 엔지니어링 스케쥴링 이해, 학습
 

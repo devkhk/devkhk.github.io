@@ -7,9 +7,10 @@ version: 2
 
 # Personal info
 name: 김광현
-title: 오늘 모르면 내일은 아는 개발자 김광현입니다
+title: 데이터를 통해 가치를 만드는 데이터 엔지니어입니다.
 email: kimkh1517@gmail.com
-website: https://devkhk.tistory.com
+# website: devkhk.tistory.com
+
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -30,10 +31,10 @@ github_username: devkhk
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
+additional_links:
+- title: tistory_blog
+  icon: fas fa-globe
+  url: devkhk.tistory.com
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -45,61 +46,78 @@ github_username: devkhk
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  오늘 모르는게 생기면 내일은 알고 있는 신입 개발자 김광현입니다. 
-  
-  Java로 처음 개발공부를 시작했고 안드로이드 프로젝트 경험, 웹 서버 프로젝트 경험으로 Full stack을 공부했습니다. 데이터 엔지니어링이 제가 목표로 하는 백엔드 개발이라는 확신이 들어 전문적인 <mark>데이터 엔지니어</mark>가 되기위해 공부하고 있습니다.
-  현재 <mark>빅 데이터</mark>와 <mark>스트림 데이터</mark> 수집, 저장, 처리, 분석, 시각화까지 데이터 분석의 전체 과정에 걸친 <mark>데이터 파이프라인</mark> 구축을 공부하고 있습니다.
+  現 <mark>놀 유니버스</mark> 데이터 엔지니어
 
-  데이터 엔지니어링을 공부하면서 오픈소스 학습 내용이나 기타 데이터 엔지니어링 학습 과정을 <mark>블로그</mark>에 꾸준히 게시하고 있습니다.
-  - [Blog](https://devkhk.tistory.com)
-  - [GitHub](https://github.com/devkhk)
+  데이터가 가진 힘을 믿고, 데이터로 더 큰 가치를 만들고 싶은 3년차 데이터 엔지니어입니다.
+  
+  전사 데이터 플랫폼팀에서 EDW 배치 파이프라인을 구축하고 있으며, 인프라 최적화 설계·운영을 목표하고 있습니다.
+  
+  새로운 기술을 빠르게 흡수하고, 문제를 멀리 내다보며 해결책을 찾아가는 것을 즐깁니다.
+
 content:
   - title: Skills # skills section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Backend
-        description: | # this will include new lines to allow paragraphs
-          - Python, PHP, Java
-          - Apache Spark, Apache Airflow, Apache Kafka, Apache Flink
-          - Laravel, Composer
-          - MVP
-      - layout: left
-        title: Devops
-        description: | # this will include new lines to allow paragraphs
-          - Linux
-          - Nginx, Apache
-          - AWS EC2, AWS S3
-          - MySQL
+        title: Language & Processing
+        description: |
+          Python / SQL / Spark / Hive
           
       - layout: left
-        title: Frontend
-        description: | # this will include new lines to allow paragraphs
-          - Html / CSS
-          - JS, Jqeury
-          - Json, Ajax
+        title: Orchestration & Platform
+        description: |
+          Airflow / Nifi / Databricks / Trino / Tableau / Redash
+          
+      - layout: left
+        title: Infrastructure & DevOps 
+        description: |
+          AWS / Kubernetes / Git / Terraform / Docker
 
-  - title: Experience # Title for the section
+  - title: In Nol-Universe # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top
+        quote: |
+          2022.09 - 현재  (3년 1개월)
+
       - layout: left
-        title: (주)델리아이
-        link: http://deliiglobal.com
-        # link_text: boringcompany.com
-        sub_title: 백앤드 개발 외주 프리랜서 계약
-        caption: 2021.10 - 2021.11
-        quote: > 
-          웹 페이지 백앤드 개발을 맡아했습니다. 
-        description: | # this will include new lines to allow paragraphs
-            퍼블리싱 된 프론트에 기능을 추가하고 서버에서 필요한 데이터를 가져와 뿌려주는 작업을 했습니다. <mark>카카오맵 API</mark>를 사용해 다중오버레이 작업을 했고, 폴더에 저장된 텍스트 파일을 한줄씩 읽어와 데이터를 뿌려주는 기능을 구현했습니다.
-            개발자체는 어렵지 않았지만 처음으로 누군가가 요구하는 기능을 만들면서 개발과정에서 <mark>소통</mark>의 중요성을 이해할 수 있었던 시간이었습니다.
+        title: 데이터 인프라 구축 및 최적화
+        caption: EKS, EMR, Presto, Terraform, Nifi, Hive
+        description: |
+          - DataHub 메타 솔루션을 EKS 기반으로 구축 및 CI 효율화 (빌드 시간 40% 단축)
+          - 도메인별 Presto 인프라 분리, <mark>조회 안정성 및 성능 개선</mark>
+            - Terraform 기반 인프라 코드화 및 오토스케일링 도입으로 비용 <mark>41%~60%</mark> 절감
+          - NiFi 기반 Triple 배치 SLA 개선으로 배치 종료 시각 <mark>4시간</mark> 단축
+          - 레거시 인프라 정리로 연간 <mark>약 6천만원</mark> 누수 비용 감축
             
-            <mark>사용 기술 요약</mark>
-            - PHP Laravel Framwork
-            - KakaoMap API
+      - layout: left
+        title: 데이터 파이프라인 개발
+        caption: Airflow, MongoDB, Spark
+        description: |
+          - Airflow 기반 파이프라인을 구축해 MongoDB 원천 데이터를 표준 JSON으로 정규화하고 Spark 확장으로 성능 개선
+          - TripleKorea 전체 파이프라인 ST-AGG 구성
+          - 기타: 각종 ETL 파이프라인 구축 및 모듈 작성, 서비스별 지표 생성, 드라이버 업데이트 지원
+
+      - layout: left
+        title: 데이터레이크 통합
+        caption: NiFi, EMR, LakeFormation
+        description: |
+          - Tokyo 리전의 EDW 배치 및 데이터를 Seoul 리전으로 이관하여 <mark>단일 레이크 환경 구축</mark>
+          - NiFi·EMR 이관 테스트 및 권한·옵션 설정
+          - LakeFormation 기반 접근 제어 및 통합 데이터 환경 구성
+          - 기타: 작업중 Firebase 배치 Hive/Tez 튜닝으로 20% 시간 단축
+
+      - layout: left
+        title: 데이터브릭스 도입 및 운영
+        caption: Databricks, Delta Lake
+        description: |
+          - <mark>Databricks PoC 및 Prod 환경 구성</mark>
+          - 인스턴스 프로파일링·권한 설정·EMR 연동 등 인프라 이슈 대응
+          - Delta Lake 기반 데이터 정합성 검증 및 사내 서비스 배치 데이터브릭스로 이관
+          - 놀 유니버스 전사 오너쉽 이관 진행중
 
 
     # layout: list # Type of content section (list/text)
@@ -114,149 +132,22 @@ content:
     #       Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
     #     description: | # this will include new lines to allow paragraphs
     #         Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-    
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-    - layout: left
-      title: 실시간 빅데이터 처리 학습 Spark & Flink 
-      sub_title: 데이터 엔지니어링 학습 포트폴리오
-      link: github.com/devkhk/data-engineering-study
-      caption: 2022.03 - 2022.05
-      # link_text: Project Website
-      additional_links:
-        - title: 데이터 엔지니어링 학습 포트폴리오
-      description: | # this will include new lines to allow paragraphs
-        우버 모빌리티 데이터로 실시간 빅데이터 처리를 실습하면서 ETL 방식에서 ELT 흐름으로 넘어가는 모던 데이터 엔지니어링 아키텍쳐를 학습.
-        
-        과거 데이터와 실시간 데이터를 기반으로 <mark>배치 파이프라인</mark>과 <mark>스트림 파이프라인</mark>을 동시에 사용하는 ML 데이터 학습과 서빙 파이프라인을 설계합니다.
-        <mark>오케스트레이션</mark> 데이터 엔지니어링 스케쥴링 이해, 학습
 
-        <mark>사용 기술 요약</mark>
-        - Apache Spark
-          - 배치 데이터 분석
-          - Data Preprocessing
-          - Hyper Parameter 파이프라인
-          - ML 예측 모델 학습 파이프라인
-        - Apache Airflow
-          - 배치 데이터 가공, 저장 파이프라인 DAG 설계 
-          - Data Preprocessing -> Train/Test 데이터 저장
-          - Hyper Parameter 학습 -> 파라미터 csv 파일로 저장
-          - Train Model -> 학습 된 모델을 저장
-          - 위 과정을 에어플로우 DAG의 작업화(Task) 하고 의존성 추가
-        - Apache Kafka
-          - 카프카 실시간 빅데이터 처리 실습
-          - 카프카를 활용한 Fraud Detection Sub Project     
-        - Apache Flink
-          - 스트림 데이터 프로세싱 실습
-          - 플링크를 활용한 Twitter API RealTime Stream Process Sub Project
-          - 배치 데이터 모델을 실시간 택시비 예측에 사용하기
+  - title: Education
+    layout: text
+    content: |
+      - <mark>실시간 빅데이터 처리를 위한 Spark & Flink</mark> · 2022.03–05 · ML 실시간 배치/스트림 · [수료증](https://www.github.com/devkhk/data-engineering-study/blob/main/day1company.pdf){:target="_blank"}
+      - <mark>네이버 부스트코스 AI Basic</mark> · 2022.01–02 · ML 기초/NumPy·Pandas · [리더 수료증](https://www.boostcourse.org/certificate/A20220310-275895?langCode=ko){:target="_blank"}
+      - <mark>클라우드 데이터 파이프라인 구축</mark> · 2021.12–2022.01 · AWS클라우드 환경 수집→처리→분석/시각화
+      - <mark>네이버 부스트코스 Harvard CS50</mark> · 2021.12 · 자료구조/알고리즘 · [수료증](https://www.boostcourse.org/certificate/A20211227-906785?langCode=ko){:target="_blank"}
+      - <mark>동양미래대학교 전자정보공학과</mark> · 2017–2019 · GPA 4.39/4.5
+      
 
-    - layout: left
-      title: KHK-Market
-      sub_title: 메이플 스토리 경매장을 모티브한 게임 아이템 경매장
-      link: github.com/devkhk/khk-market
-      caption: 2021.04 - 2021.05
-      # link_text: Project Website
-      additional_links:
-        - title: KHK-Market
-          # icon: fab fa-github
-          # url: github.com/devkhk/khk-market
-
-        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #   icon: fab fa-github
-        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-      description: | # this will include new lines to allow paragraphs
-        건강상의 문제로 약 1년여만에 개발 공부를 다시 시작하게 된 후 제작한 웹 사이트입니다. 휴식기간 동안 가끔 즐기던 게임인 메이플스토리의 <mark>경매장</mark>을 모티브삼아 웹사이트로 만들어보았습니다.
-        개발 목적은 개발에 대한 감각을 되살리고 여러가지 조건에 쿼리문을 다양하게 적용해보고 싶었습니다. 자세한 내용은 깃허브에 정리해두었습니다.
-
-        <mark>사용 기술 요약</mark>
-        - bootstrap5
-        - PHP PDO
-        - DB transaction, DB triger
-
-    - layout: left
-      title: My_web
-      sub_title: 처음 웹서버를 공부하면서 만든 블로그 웹입니다.
-      link: github.com/devkhk/my_web
-      caption: 2020.02 - 2021.03
-      # link_text: Project Website
-      additional_links:
-        - title: My_web
-          # icon: fab fa-github
-          # url: github.com/devkhk/my_web
-        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #   icon: fab fa-github
-        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-
-      description: | # this will include new lines to allow paragraphs
-        웹 서버를 처음 구현하면서 백엔드에 대한 이해가 생기는 좋은 시간이었습니다. 직접 APM을 구성하고 리눅스에서 터미널 명령어를 다뤄보면서 내가 개발고수가 된 느낌이 들면서 이때부터 백앤드 개발자가 되어야겠다고 다짐했습니다.
-        자세한 내용은 깃허브에 정리해두었습니다.
-
-        <mark>사용 기술 요약</mark>
-        - CRUD
-        - 세션, 쿠키
-        - SMTP 이메일 서비스
-        - 댓글 : disqus API
-        - 스팸방지 : recaptcha2 API
-        - Summernote : ajax 다중이미지 처리
-        - 썸네일 : 이미지 압축
-    
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: 패스트캠프 실시간 빅데이터 처리 Spark & Flink
-        caption: 2022.03 - 05
-        sub_title: 우버 모빌리티 데이터로 실시간 빅데이터 처리 실습
-        link: https://www.github.com/devkhk/data-engineering-study/blob/main/day1company.pdf
-        link_text: <mark>수료증</mark>
-        description: | 
-         - 실무 데이터 처리의 End - End 학습
-         - 우버 모빌리티 데이터로 실시간 빅데이터 처리 실습
-         - 일괄처리 VS 실시간 빅데이터 처리 비교 학습
-         - 오케스트레이션으로 데이터 엔지니어링 스케쥴링 학습
-
-      - layout: left
-        title: 부스트코스 AI Basic 코칭스터디 1기 리드 부스터 수료
-        caption: 2022.01 - 02
-        sub_title: 네이버 컨넥트재단에서 운영하는 인공지능 교육 프로그램 중 AI기초
-        link: https://www.boostcourse.org/certificate/A20220310-275895?langCode=ko
-        link_text: <mark>리더 수료증</mark>
-        description: | # this will include new lines to allow paragraphs
-          - 인공지능 전반에 필요한 기초 습득
-          - 머신러닝을 위한 라이브러리 Numpy, Pandas 등을 이해하고 구현
-          - 머신 러닝 알고리즘에 대한 이해
-          - 자기 주도적 학습, 팀 학습, 코칭 결합된 스터디
-  
-      - layout: left
-        title: 패스트 캠프 클라우드를 활용한 데이터 파이프라인 구축
-        caption: 2021.12 - 2022.01
-        sub_title: 데이터 수집, 저장, 처리, 분석, 시각화까지 모든 단계의 파이프라인 구축
-        description: | # this will include new lines to allow paragraphs
-         - 데이터 파이프라인 전체 과정 커버
-         - AWS와 Spark를 포함한 다양한 툴 활용
-         - AWS 운영, 코스트 최적화 노하우
-         - 실무와 유사한 환경 실습
-
-      - layout: left
-        title: 네이버 컨넥트재단 부스트코스 컴퓨터 과학 CS50
-        caption: 2021.12
-        sub_title: 하버드 대학교의 컴퓨터과학 입문 강좌
-        link: https://www.boostcourse.org/certificate/A20211227-906785?langCode=ko
-        link_text: <mark>수료증</mark>
-        description: | # this will include new lines to allow paragraphs
-          - 컴퓨터 과학의 기초 개념 이해
-          - C를 이용한 배열, 자료구조, 알고리즘 실습
-          - 프로그래밍에 필요한 컴퓨팅 사고 향상
-          - [CS강의 블로그 정리](https://devkhk.tistory.com/category/Development/CS)
-
-      - layout: left
-        title: 동양 미래 대학교
-        caption: 2017 - 2019
-        sub_title: 전자정보공학과
-        description: | # this will include new lines to allow paragraphs
-          - 4.39/4.5 졸업
+  - title : Links
+    layout: text
+    content: |
+      - [Blog](https://devkhk.tistory.com)
+      - [GitHub](https://github.com/devkhk)
 
   # - title: 외부 활동
   #   layout: text
@@ -271,7 +162,7 @@ content:
   #     ![Trees](images/landscape-trees.jpg "Trees")
 
 # Footer
-footer_show_references: true
+footer_show_references: False
 # references_title: References on request (Override references text)
 
 # Build settings

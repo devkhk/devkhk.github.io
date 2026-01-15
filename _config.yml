@@ -51,9 +51,9 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   現 <mark>놀 유니버스</mark> 데이터 엔지니어
 
-  데이터가 가진 힘을 믿고, 데이터로 더 큰 가치를 만들고 싶은 3년차 데이터 엔지니어입니다.
+  데이터가 가진 힘을 믿고, 데이터로 더 큰 가치를 만들고 싶은 4년차 데이터 엔지니어입니다.
   
-  전사 데이터 플랫폼팀에서 EDW 배치 파이프라인을 구축하고 있으며, 인프라 최적화 설계·운영을 목표하고 있습니다.
+  전사 데이터 플랫폼팀에서 Lakehouse 기반의 데이터 파이프라인과 공용 분석 환경을 구축·운영하고 있습니다.
   
   새로운 기술을 빠르게 흡수하고, 문제를 멀리 내다보며 해결책을 찾아가는 것을 즐깁니다.
 
@@ -81,7 +81,7 @@ content:
     content:
       - layout: top
         quote: |
-          2022.09 - 현재  (3년 1개월)
+          2022.09 - 현재
 
       - layout: left
         title: 데이터 인프라 구축 및 최적화
@@ -117,7 +117,7 @@ content:
           - <mark>Databricks PoC 및 Prod 환경 구성</mark>
           - 인스턴스 프로파일링·권한 설정·EMR 연동 등 인프라 이슈 대응
           - Delta Lake 기반 데이터 정합성 검증 및 사내 서비스 배치 데이터브릭스로 이관
-          - 놀 유니버스 전사 오너쉽 이관 진행중
+          - 놀 유니버스 전사 데이터 플랫폼 오너쉽 이관
 
 
     # layout: list # Type of content section (list/text)

@@ -69,7 +69,7 @@ content:
       - layout: left
         title: Orchestration & Platform
         description: |
-          Airflow / Nifi / Databricks / Trino / Tableau / Redash
+          Airflow / Nifi / Databricks / Trino(Presto) / Tableau / Redash
           
       - layout: left
         title: Infrastructure & DevOps 
@@ -91,15 +91,14 @@ content:
           - 도메인별 Presto 인프라 분리, <mark>조회 안정성 및 성능 개선</mark>
             - Terraform 기반 인프라 코드화 및 오토스케일링 도입으로 비용 <mark>41%~60%</mark> 절감
           - NiFi 기반 Triple 배치 SLA 개선으로 배치 종료 시각 <mark>4시간</mark> 단축
-          - 레거시 인프라 정리로 연간 <mark>약 6천만원</mark> 누수 비용 감축
-            
+          - 레거시 인프라 정리로 연간 <mark>약 1.2억원</mark> 누수 비용 감축
       - layout: left
         title: 데이터 파이프라인 개발
         caption: Airflow, MongoDB, Spark
         description: |
           - Airflow 기반 파이프라인을 구축해 MongoDB 원천 데이터를 표준 JSON으로 정규화하고 Spark 확장으로 성능 개선
           - TripleKorea 전체 파이프라인 ST-AGG 구성
-          - 기타: 각종 ETL 파이프라인 구축 및 모듈 작성, 서비스별 지표 생성, 드라이버 업데이트 지원
+          - 기타: 각종 이기종 ETL 파이프라인 구축 및 모듈 작성, 서비스별 지표 생성, 드라이버 업데이트 지원
 
       - layout: left
         title: 데이터레이크 통합
@@ -117,7 +116,7 @@ content:
           - <mark>Databricks PoC 및 Prod 환경 구성</mark>
           - 인스턴스 프로파일링·권한 설정·EMR 연동 등 인프라 이슈 대응
           - Delta Lake 기반 데이터 정합성 검증 및 사내 서비스 배치 데이터브릭스로 이관
-          - 놀 유니버스 전사 데이터 플랫폼 오너쉽 이관
+          - 놀 유니버스 전사 데이터 플랫폼 오너쉽
 
 
     # layout: list # Type of content section (list/text)
